@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Dr.Evil's Evil Lottery Machine</title>
+	</head>
+	<body>
+		<h1>Welcome to Dr. Evil's Lottery Simulator.</h1>
+
+		<p><strong>Enter 5 lottery numbers between 1-75 and a powerball number between 1-15</p></strong>
+				<button class="button" onClick="window.open('http://i.imgur.com/VqZGoXe.png');"><span class="icon">Probability	</span></button>
+				<button class="button" onClick="window.open('http://www.megamillions.com/faqs');"><span class="icon">How does this shit even work?</span></button>
+
+
+
+				
+		<br>
+		<form id="nums">
+			Number  1 [1-75]: <input type="text" name="num1" value="" size="2"><br>
+			Number  2 [1-75]: <input type="text" name="num2" value="" size="2"><br>
+			Number  3 [1-75]: <input type="text" name="num3" value="" size="2"><br>
+			Number  4 [1-75]: <input type="text" name="num4" value="" size="2"><br>
+			Number  5 [1-75]: <input type="text" name="num5" value="" size="2"><br>
+			PowerBall[1-15]: <input type="text" name="num6" value="" size="2"><br>
+			How many years shall we waste moneys? <input type="text" name="years" value="" size="10"><br>
+			
+	
+		</form>
+		<button onclick="getNums()">Submit Numbers</button>
+		<button onclick="getRanNums()">Quick Pick Numbers</button>
+		<script src="lottery.js"></script>
+	</body>
+</html>
