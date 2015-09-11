@@ -22,7 +22,7 @@ function doWork(){
 	alert("Doing work son");
 	for(var i = 0; i < years; i++){
 		for (var j = 0; j < 53; j++){
-			//52 weeks per year shit goes here. 
+			//52 weeks per year shit goes here. 	
 
 		}
 	}
